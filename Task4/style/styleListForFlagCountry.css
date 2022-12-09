@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+}
+span{
+    display: inline-block;
+    background-image: url("../img/countryFlag.jpg");
+    width: 46px;
+    height: 30px;
+}
+li:nth-child(2) span{
+    background-position: -46px 0;
+}
+li:nth-child(3) span{
+    background-position: -92px 0;
+}
+li:nth-child(4) span{
+    background-position: -138px 0;
+}
+li:nth-child(5) span{
+    background-position: -184px 0;
+}
+li:nth-child(6) span{
+    background-position: -230px 0;
+}
+ul, form{
+    margin: 5px;
+}
+form{
+    clear: left;
+}
